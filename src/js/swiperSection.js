@@ -5,12 +5,12 @@ function createSwiper() {
   const block = document.querySelector(".swiper_second");
 
   const images = [
-    "../img/swiper/cart2.jpg",
-    "../img/swiper/cart3.jpg",
-    "../img/swiper/cart4.jpg",
-    "../img/swiper/cart2.jpg",
-    "../img/swiper/cart3.jpg",
-    "../img/swiper/cart4.jpg",
+    "../../img/swiper/cart2.jpg",
+    "../../img/swiper/cart3.jpg",
+    "../../img/swiper/cart4.jpg",
+    "../../img/swiper/cart2.jpg",
+    "../../img/swiper/cart3.jpg",
+    "../../img/swiper/cart4.jpg",
   ];
 
   const list = images.reduce((html, item) => {
